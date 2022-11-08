@@ -132,13 +132,13 @@ javascript:
                                                 var remainingFields = seconds / unitSpeed[1];
                                         } else if (commandName.includes("špeh") || commandName.includes("scout")) {
                                                 var remainingFields = seconds / unitSpeed[2];
-                                        } else if (commandName.includes("lk") || commandName.includes("light")) {
+                                        } else if (commandName.includes("lahká jazda") || commandName.includes("light")) {
                                                 var remainingFields = seconds / unitSpeed[3];
-                                        } else if (commandName.includes("tk") || commandName.includes("heavy")) {
+                                        } else if (commandName.includes("ťažká jazda") || commandName.includes("heavy")) {
                                                 var remainingFields = seconds / unitSpeed[4];
-                                        } else if (commandName.includes("beranidlo") || commandName.includes("cat")) {
+                                        } else if (commandName.includes("baranidlo") || commandName.includes("cat")) {
                                                 var remainingFields = seconds / unitSpeed[5];
-                                        }else if (commandName.includes("šlechta") || commandName.includes("snob")) {
+                                        }else if (commandName.includes("šlachtic") || commandName.includes("snob")) {
                                                 var remainingFields = seconds / unitSpeed[6];
                                         }
                                         //console.log(hatralevo_mezo);
@@ -226,13 +226,13 @@ javascript:
                                                 var sec = remaining * unitSpeed[1];
                                         } else if (commandName.includes("špeh") || commandName.includes("scout")) {
                                                 var sec = remaining * unitSpeed[2];
-                                        } else if (commandName.includes("lk") || commandName.includes("light")) {
+                                        } else if (commandName.includes("ľahká jazda") || commandName.includes("light")) {
                                                 var sec = remaining * unitSpeed[3];
-                                        } else if (commandName.includes("tk") || commandName.includes("heavy")) {
+                                        } else if (commandName.includes("ťažká jazda") || commandName.includes("heavy")) {
                                                 var sec = remaining * unitSpeed[4];
-                                        } else if (commandName.includes("beranidlo") || commandName.includes("cat")) {
+                                        } else if (commandName.includes("baranidlo") || commandName.includes("cat")) {
                                                 var sec = remaining * unitSpeed[5];
-                                        }else if (commandName.includes("šlechta") || commandName.includes("snob")) {
+                                        }else if (commandName.includes("šlachtic") || commandName.includes("snob")) {
                                                 var sec = remaining * unitSpeed[6];
                                         }
                                         // count down in seconds
